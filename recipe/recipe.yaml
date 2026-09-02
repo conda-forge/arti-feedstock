@@ -1,6 +1,6 @@
 context:
   name: arti
-  version: "2.5.1"
+  version: "2.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://gitlab.torproject.org/tpo/core/${{ name }}/-/archive/${{ name }}-v${{ version }}/${{ name }}-${{ name }}-v${{ version }}.tar.gz
-  sha256: 498aec26fbdf2abb57c87c4a0f48c1ac0bd83848e1a4308a4fed348812872d76
+  sha256: 76575e54f4bd67da030ada8376208cffa0c1210de606e9db12d2fa8a2a05b195
 
 build:
   script:
